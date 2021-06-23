@@ -1,0 +1,17 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "databank"
+author = "Brendan Strejcek"
+author-email = "brendan@datagazing.com"
+home-page = "https://github.com/datagazing/databank"
+classifiers = [ "License :: OSI Approved :: MIT License",]
+description-file = "README.rst"
+requires-python = ">=3.7"
+requires = ["attrs", "pandect", "disambigufile", "optini"]
+
+#[tool.flit.scripts]
+#xscript = "xmodule:xfunction"
+#databank = "databank:databank"
